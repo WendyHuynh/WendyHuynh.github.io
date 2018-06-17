@@ -35,44 +35,27 @@ header {padding:10px 0;}
 .twogrid {display:inline-block; width:47%; margin:2.5% 1%; text-align:center;}
 .twogrid img {width:100%;}
 .btn {background:#000; color:#fff; font-weight:700; display:inline-block; width:25%; margin:0 auto; text-align:center; padding:5px 0; font-size:18px;}
-.btn:hover {background:linear-gradient(#000, #121212);}
+.btn:hover {background:linear-gradient(#000, #333333);}
 
-/* Style inputs with type="text", select elements and textareas */
+/* FOOTER */
+footer {background:#282828; padding:20px 0; color:#fff; font-size:16px; line-height:22px;}
+footer a {color:#fff; font-size:16px; line-height:22px;}
+footer a:hover {color:#424242;}
+/* FORM */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
+    padding: 8px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+/*submit button styles */
+input[type=submit] {max-width:200px; width:100%; background: #282828; color:#fff; padding: 8px 0; font-family: 'Roboto Condensed', sans-serif;}
+input[type=submit]:hover {background-color: #424242;}
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {background-color: #45a049;}
-
-/* Add a background color and some padding around the form */
-.container {padding: 20px;}
-
-/* FOOTER */
-footer {background:#282828; padding:20px 0; color:#fff; font-size:16px; line-height:22px;}
-footer a {color:#fff;}
-.line {border-top:1px solid #0a62ad; margin:0 auto;}
-.foot_column {float:left; width: 49%;}
-.foot {float:right; width:18%; margin-top:20px;}
-.foot img {width:100%; vertical-align:top; margin:1% 2%;}
-#footright {text-align:right;}
 
   
 /************************************************ Responsive Styles **/
@@ -89,12 +72,13 @@ footer a {color:#fff;}
 
 
 @media screen and (max-width: 780px)  {
-
+.logo {width:50%;}
+.navwrap {width:40%;}
 
 }
 
 @media screen and (max-width: 500px)  {
-
+.twogrid {width:100%; margin:2% auto;}
 }
 
 @media screen and (max-width: 375px)  {

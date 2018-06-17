@@ -25,7 +25,7 @@ nav.primary {
 			nav.primary ul li a {
 				color:#000;
 				font-size:16px;
-				line-height:60px;
+				line-height:20px;
 				text-decoration:none;
 				padding:0;
 				display:block;
@@ -38,7 +38,7 @@ nav.primary {
 				transition:.2s ease-in;	
 				padding:10px 25px;
 				}	
-			nav.primary ul li a:hover {color:#f0d407;}
+			nav.primary ul li a:hover {color:#282828;}
 
 			/* Appearance of the sub-level links */
 			nav.primary ul li li a { 
@@ -78,18 +78,10 @@ nav.primary ul ul li {
     margin:0;
 }
 /******** End of primary Nav ***************/
-@media screen and (max-width: 1780px)  {
-nav.primary ul li a {padding:0 12px;}
-}
 
-@media screen and (max-width: 1480px)  {
-nav.primary ul li a {font-size:16px; padding:0 6px;}
-nav.primary ul li li a {font-size:14px;}
-}
 
 @media screen and (max-width: 1250px)  {
-nav.primary ul li a {font-size:13px; padding:0 5px;}
-nav.primary ul li li a {font-size:11px;}
+nav.primary ul li a {font-size:14px;}
 }
 
 @media screen and (max-width: 1024px)  {
@@ -101,16 +93,16 @@ nav.primary{display:none;}
 #menu-button{ 
 	width: 100%;
 	display: block;
-	font-size: 16px;
+	font-size: 14px;
 	position: relative;
-	line-height:60px; 
+	line-height:20px; 
 	z-index: 400; /* needs to be lower than nav.mobile, adjust as needed */
 	font-weight:700;
 	font-family: 'Roboto Condensed', sans-serif; 
 	text-transform:uppercase;
 	}
 	#menu-button a{
-		 color:#fff;
+		 color:#000;
 		 text-decoration: none;
 		 padding:0 0 0 .8em; 
 		 font-weight:normal;
