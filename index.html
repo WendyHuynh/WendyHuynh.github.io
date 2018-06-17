@@ -149,7 +149,11 @@
             </div>
             <div class="small-12 medium-6 columns">
             	<div class="container">
-                  <form action="/action_page.php">
+                <form method="post" action="index.html" onSubmit="return validation(this)"> 
+            	<input type="hidden" name="form_subject" value="Contact Form"> 
+            	<input type="hidden" name="form_thankyou" value="index.html">
+            	<input type="hidden" name="form_to" value="whuynh93@gmail.com"> 
+
                     <input type="text" id="name" name="name" placeholder="Name">
                     <input type="email" id="email" name="email" placeholder="Email">
                     <textarea id="subject" name="subject" placeholder="Message" style="height:50px"></textarea>
