@@ -38,7 +38,7 @@ nav.primary {
 				transition:.2s ease-in;	
 				padding:10px 15px;
 				}	
-			nav.primary ul li a:hover {color:#333;}
+			nav.primary ul li a:hover {color:#ccc;}
 
 			/* Appearance of the sub-level links */
 			nav.primary ul li li a { 
@@ -85,6 +85,6 @@ nav.primary ul li a {font-size:14px;}
 }
 
 @media screen and (max-width: 450px)  {
-nav.primary ul li a {font-size:14px; padding:10px;}
+nav.primary ul li a {font-size:14px; padding:10px 8px;}
 }
 
