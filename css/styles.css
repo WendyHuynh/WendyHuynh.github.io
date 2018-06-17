@@ -32,8 +32,8 @@ header {padding:10px 0;}
 .pageleft {float:left; width:60%;}
 .pageright {float:right; width:35%;}
 
-.gridtwo {display:inline-block; width:48%; margin:1%;}
-.gridtwo img {width:100%;}
+.twogrid {display:inline-block; width:48%; margin:1%;}
+.twogrid img {width:100%;}
 .btn {border:1px solid #000; font-weight:700; display:inline-block; width:50%; margin:0 auto; text-align:center; padding:10px 0; font-size:18px;}
 .btn:hover {background:linear-gradient(#3F3F3F, #282828); color:#fff;}
 
