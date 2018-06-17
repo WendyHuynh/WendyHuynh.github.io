@@ -5,11 +5,11 @@ ul {padding:0 0;}
 .clear {clear: both; height:0px; margin:0;}
 
 h1 {font-family: 'Roboto Condensed', sans-serif; font-size:48px; line-height:42px; text-transform:uppercase; font-weight:700;}
-h2 {font-family: 'Roboto Condensed', sans-serif; font-weight:700; font-size:18px; text-transform:uppercase;}
-h3 {font-family: 'Roboto Condensed', sans-serif; font-size:16px;}
-h4 {font-family: 'Roboto Condensed', sans-serif; font-size:14px; text-transform:uppercase; color:#fff; margin-top:5px;}
+h2 {font-family: 'Roboto Condensed', sans-serif; font-weight:700; font-size:20px; text-transform:uppercase;}
+h3 {font-family: 'Roboto Condensed', sans-serif; font-size:18px;}
+h4 {font-family: 'Roboto Condensed', sans-serif; font-size:16px; text-transform:uppercase; color:#fff; margin-top:5px;}
 
-p {font-size:12px; line-height:20px;}
+p {font-size:14px; line-height:20px;}
 
 a {text-decoration:none;}
 
@@ -19,8 +19,8 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 #site-width {width:90%; margin:0 auto;}
 
 
-#colorblock {background:url('./siteart/texture.jpg') no-repeat; color:#fff; padding:10px 0;}
-.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
+#colorblock {background:url('./siteart/texture.jpg') no-repeat #000; color:#fff; padding:10px 0;}
+.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:0 auto; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 
 /* HEADER */
 header {padding:10px 0;}
