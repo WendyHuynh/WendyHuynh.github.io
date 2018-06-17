@@ -20,7 +20,7 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 
 
 #colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:15px 0;}
-.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:0 auto; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
+.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:30px auto; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 
 /* HEADER */
 header {padding:10px 0;}
