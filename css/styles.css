@@ -19,7 +19,7 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 #site-width {width:90%; margin:0 auto;}
 
 
-#colorblock {background:url('./siteart/texture.jpg') no-repeat #000; color:#fff; padding:15px 0;}
+#colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:15px 0;}
 .colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:0 auto; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 
 /* HEADER */
@@ -32,7 +32,7 @@ header {padding:10px 0;}
 .pageleft {float:left; width:60%;}
 .pageright {float:right; width:35%;}
 
-.twogrid {display:inline-block; width:47%; margin:0.5% 2%; text-align:center;}
+.twogrid {display:inline-block; width:47%; margin:0 .5% 2%; text-align:center;}
 .twogrid img {width:100%;}
 .btn {background:#000; color:#fff; font-weight:700; display:inline-block; width:25%; margin:0 auto; text-align:center; padding:5px 0; font-size:14px;}
 .btn:hover {background:linear-gradient(#000, #333333);}
