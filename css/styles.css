@@ -53,7 +53,7 @@ input[type=text], select, textarea {
 }
 
 /*submit button styles */
-input[type=submit] {max-width:200px; width:100%; border:1px solid #fff; color:#fff; padding: 8px 0; font-family: 'Roboto Condensed', sans-serif; margin-bottom:15px;}
+input[type=submit] {max-width:200px; width:100%; border:1px solid #fff; color:#fff; padding: 5px 0; font-family: 'Roboto Condensed', sans-serif; margin-bottom:15px;}
 input[type=submit]:hover {background-color: #424242;}
 
 
