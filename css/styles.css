@@ -20,9 +20,10 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 
 
 #colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:20px 0;}
+#colorblock a {color:#fff;}
 .colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:5px 0 5px; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 .colorblockbtn:hover {background:linear-gradient(#000, #333333);}
-#greyblock {background:#282828; text-align:center; padding:30px 0;}
+#greyblock {background:#282828; text-align:center; padding:30px 0; color:#fff;}
 
 /* HEADER */
 header {background:#000; padding:10px 0;}
