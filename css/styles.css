@@ -41,7 +41,7 @@ header {padding:10px 0;}
 footer {background:#282828; padding:20px 0 0; color:#fff; font-size:14px; line-height:22px;}
 footer a {color:#fff; font-size:14px; line-height:22px;}
 footer a:hover {color:#424242;}
-.line {border-top:1px solid #fff; padding:10px 0; margin:10px auto;}
+.line {border-top:1px solid #fff; padding:10px 0 0; margin:10px auto;}
 /* FORM */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
