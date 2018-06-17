@@ -84,12 +84,15 @@ p {font-size:14px;}
 
 }
 
+@media screen and (max-width: 639px)  {
+#selfportrait {display:block; width:50%; margin:0 auto 5px; text-align:center;}
+#selfportrait img {width:100%;}
+}
+
 @media screen and (max-width: 500px)  {
 .twogrid {width:100%; margin:2% auto;}
 
 h4 {font-size:16px;}
-
-#selfportrait {display:block; width:50%; margin:0 auto 5px; text-align:center;}
 
 }
 
