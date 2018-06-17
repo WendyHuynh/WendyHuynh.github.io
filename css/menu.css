@@ -102,7 +102,7 @@ nav.primary{display:none;}
 	text-transform:uppercase;
 	}
 	#menu-button a{
-		 color:#000;
+		 color:#fff;
 		 text-decoration: none;
 		 padding:0 0 0 .8em; 
 		 font-weight:normal;
@@ -115,7 +115,7 @@ nav.mobile {
 	left: -250px;
 	width: 250px;
 	height: 100%;
-	background: #333;
+	background: #000;
 	z-index: 500; /* needs to be higher than #menu-button, adjust as needed */
 	overflow:auto;
 	text-transform:uppercase;
