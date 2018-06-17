@@ -37,8 +37,8 @@ header {padding:10px 0;}
 .btn:hover {background:linear-gradient(#000, #333333);}
 
 /* FOOTER */
-footer {background:#282828; padding:20px 0 0; color:#fff; font-size:16px; line-height:22px; margin-top:10px;}
-footer a {color:#fff; font-size:16px; line-height:22px;}
+footer {background:#282828; padding:20px 0 0; color:#fff; font-size:14px; line-height:22px; margin-top:10px;}
+footer a {color:#fff; font-size:14px; line-height:22px;}
 footer a:hover {color:#424242;}
 /* FORM */
 input[type=text], select, textarea {
