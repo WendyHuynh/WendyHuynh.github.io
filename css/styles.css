@@ -19,7 +19,7 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 #site-width {width:90%; margin:0 auto;}
 
 
-#colorblock {background:#000; color:#fff; padding:10px 0;}
+#colorblock {background: url('./siteart/texture.jpg') repeat-x top center; color:#fff; padding:10px 0;}
 .colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 
 /* HEADER */
