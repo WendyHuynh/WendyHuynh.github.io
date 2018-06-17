@@ -38,7 +38,7 @@ nav.primary {
 				transition:.2s ease-in;	
 				padding:10px 15px;
 				}	
-			nav.primary ul li a:hover {color:#282828;}
+			nav.primary ul li a:hover {color:#333;}
 
 			/* Appearance of the sub-level links */
 			nav.primary ul li li a { 
