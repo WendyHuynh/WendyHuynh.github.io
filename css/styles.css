@@ -100,6 +100,7 @@ h4 {font-size:16px;}
 
 }
 
-@media screen and (max-width: 375px)  {
-
+@media screen and (max-width: 300px)  {
+.logo {float:none; width:100%;}
+.navwrap {float:none; width:100%; text-align:center;}
 }
