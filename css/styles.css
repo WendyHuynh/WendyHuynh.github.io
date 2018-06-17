@@ -9,7 +9,7 @@ h2 {font-family: 'Roboto Condensed', sans-serif; font-weight:700; font-size:22px
 h3 {font-family: 'Roboto Condensed', sans-serif; font-size:20px;}
 h4 {font-family: 'Roboto Condensed', sans-serif; font-size:18px; text-transform:uppercase; color:#fff; margin-top:5px;}
 
-p {font-size:16px; line-height:20px;}
+p {font-size:16px; line-height:22px;}
 
 a {text-decoration:none;}
 
@@ -20,7 +20,7 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 
 
 #colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:15px 0;}
-.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:30px auto; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
+.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:5px auto 30px; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 
 /* HEADER */
 header {padding:10px 0;}
