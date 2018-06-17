@@ -22,6 +22,7 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 #colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:20px 0;}
 .colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:5px 0 5px; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 .colorblockbtn:hover {background:linear-gradient(#000, #333333);}
+.greyblock {background:#282828; text-align:center; padding:30px 0;}
 
 /* HEADER */
 header {background:#000; padding:10px 0;}
@@ -77,7 +78,7 @@ h4 {font-size:18px;}
 
 @media screen and (max-width: 780px)  {
 #pagewrap {width:90%;}
-h2 {font-size:18px;}
+h2 {font-size:18px; line-height:26px;}
 p {font-size:14px;}
 .logo {width:20%;}
 .navwrap {width:40%;}
@@ -85,7 +86,7 @@ p {font-size:14px;}
 }
 
 @media screen and (max-width: 639px)  {
-#selfportrait {display:block; width:50%; margin:0 auto 5px; text-align:center;}
+#selfportrait {display:block; width:50%; margin:0 auto 10px; text-align:center;}
 #selfportrait img {width:100%;}
 }
 
