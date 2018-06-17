@@ -24,7 +24,7 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 
 /* HEADER */
 header {padding:10px 0;}
-.logo {float:left; width:8%;}
+.logo {float:left; width:9%;}
 .logo img {width:100%;}
 .navwrap {width:70%; float:right; text-align:right;}
 
@@ -34,11 +34,11 @@ header {padding:10px 0;}
 
 .twogrid {display:inline-block; width:47%; margin:2.5% 1%; text-align:center;}
 .twogrid img {width:100%;}
-.btn {background:#000; color:#fff; font-weight:700; display:inline-block; width:25%; margin:0 auto; text-align:center; padding:5px 0; font-size:18px;}
+.btn {background:#000; color:#fff; font-weight:700; display:inline-block; width:25%; margin:0 auto; text-align:center; padding:5px 0; font-size:17px;}
 .btn:hover {background:linear-gradient(#000, #333333);}
 
 /* FOOTER */
-footer {background:#282828; padding:20px 0; color:#fff; font-size:16px; line-height:22px;}
+footer {background:#282828; padding:20px 0 0; color:#fff; font-size:16px; line-height:22px;}
 footer a {color:#fff; font-size:16px; line-height:22px;}
 footer a:hover {color:#424242;}
 /* FORM */
