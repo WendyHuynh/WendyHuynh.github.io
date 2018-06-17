@@ -36,7 +36,6 @@ nav.primary {
 				-moz-transition:.2s ease-in;  
 				-o-transition:.2s ease-in;  
 				transition:.2s ease-in;	
-				font-weight:700; 
 				padding:10px 25px;
 				}	
 			nav.primary ul li a:hover {color:#f0d407;}
