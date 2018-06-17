@@ -5,7 +5,7 @@ ul {padding:0 0;}
 .clear {clear: both; height:0px; margin:0;}
 
 h1 {font-family: 'Roboto Condensed', sans-serif; font-size:48px; line-height:42px; text-transform:uppercase; font-weight:700;}
-h2 {font-family: 'Roboto Condensed', sans-serif; font-weight:700; font-size:20px; text-transform:uppercase;}
+h2 {font-family: 'Roboto Condensed', sans-serif; font-weight:700; font-size:20px; text-transform:uppercase;margin-top:5px;}
 h3 {font-family: 'Roboto Condensed', sans-serif; font-size:18px;}
 h4 {font-family: 'Roboto Condensed', sans-serif; font-size:16px; text-transform:uppercase; color:#fff; margin-top:5px;}
 
@@ -41,6 +41,7 @@ header {padding:10px 0;}
 footer {background:#282828; padding:20px 0 0; color:#fff; font-size:14px; line-height:22px;}
 footer a {color:#fff; font-size:14px; line-height:22px;}
 footer a:hover {color:#424242;}
+.line {border-top:1px solid #fff; padding:10px 0; margin:10px auto;}
 /* FORM */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
