@@ -74,7 +74,6 @@ input[type=submit]:hover {background-color: #424242;}
 @media screen and (max-width: 1024px)  {
 h4 {font-size:18px;}
 .btn {width:75%;}
-.headerright {width:50%;}
 }
 
 
@@ -84,8 +83,7 @@ h4 {font-size:18px;}
 h2 {font-size:18px; line-height:26px;}
 p {font-size:14px;}
 .logo {width:20%;}
-.navwrap {width:60%;}
-
+.navwrap {width:75%;}
 }
 
 @media screen and (max-width: 639px)  {
@@ -100,7 +98,7 @@ h4 {font-size:16px;}
 
 }
 
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 300px)  {
 .logo {float:none; width:100%;}
 .navwrap {float:none; width:100%; text-align:center;}
 }
