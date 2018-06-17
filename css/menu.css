@@ -81,7 +81,7 @@ nav.primary ul ul li {
 
 
 @media screen and (max-width: 1250px)  {
-nav.primary ul li a {font-size:14px;}
+nav.primary ul li a {font-size:14px; padding:10px;}
 }
 
 @media screen and (max-width: 300px)  {
