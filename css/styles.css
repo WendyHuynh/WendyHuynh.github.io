@@ -19,8 +19,8 @@ body {overflow-x:hidden; background:#fff; color:#000;}
 #site-width {width:90%; margin:0 auto;}
 
 
-#colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:15px 0;}
-.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:5px auto 30px; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
+#colorblock {background: url('../siteart/texture.jpg') repeat-x top center #000; color:#fff; padding:20px 0;}
+.colorblockbtn {border:1px solid #fff; padding:5px 0; max-width:200px; width:100%; margin:5px auto 5px; color:#fff; text-align:center; font-size:14px; text-transform:uppercase;}
 
 /* HEADER */
 header {padding:10px 0;}
@@ -33,7 +33,7 @@ header {padding:10px 0;}
 .pageright {float:right; width:35%;}
 
 .twogrid {display:inline-block; width:47%; margin:0 1% 2%; text-align:center;}
-.twogrid img {width:100%;}
+.twogrid img {width:90%;}
 .btn {background:#000; color:#fff; font-weight:700; display:inline-block; width:25%; margin:0 auto; text-align:center; padding:5px 0; font-size:14px;}
 .btn:hover {background:linear-gradient(#000, #333333);}
 
