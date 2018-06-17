@@ -53,7 +53,7 @@ input[type=text], select, textarea {
 }
 
 /*submit button styles */
-input[type=submit] {max-width:200px; width:100%; background: #282828; color:#fff; padding: 8px 0; font-family: 'Roboto Condensed', sans-serif;}
+input[type=submit] {max-width:200px; width:100%; border:1px solid #fff; color:#fff; padding: 8px 0; font-family: 'Roboto Condensed', sans-serif;}
 input[type=submit]:hover {background-color: #424242;}
 
 
@@ -67,12 +67,14 @@ input[type=submit]:hover {background-color: #424242;}
 }
 
 @media screen and (max-width: 1024px)  {
+.btn {width:75%;}
 }
 
 
 
 @media screen and (max-width: 780px)  {
-.logo {width:50%;}
+h2 {font-size:18px;}
+.logo {width:20%;}
 .navwrap {width:40%;}
 
 }
