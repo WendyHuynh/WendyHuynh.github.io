@@ -67,13 +67,16 @@ input[type=submit]:hover {background-color: #424242;}
 }
 
 @media screen and (max-width: 1024px)  {
+h4 {font-size:18px;}
 .btn {width:75%;}
 }
 
 
 
 @media screen and (max-width: 780px)  {
+#pagewrap {width:90%;}
 h2 {font-size:18px;}
+p {font-size:14px;}
 .logo {width:20%;}
 .navwrap {width:40%;}
 
@@ -81,6 +84,9 @@ h2 {font-size:18px;}
 
 @media screen and (max-width: 500px)  {
 .twogrid {width:100%; margin:2% auto;}
+
+h4 {font-size:16px;}
+
 }
 
 @media screen and (max-width: 375px)  {
