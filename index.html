@@ -89,13 +89,13 @@
     <div id="pagewrap">
     	<a name="work"><h1>Work</h1></a>
     	<div class="twogrid">
-        	<img src="./siteart/work/1.png" alt="Portfolio Example 1"/>
+        	<img id="img1" class="img-view-more" src="./siteart/work/1.png" alt="Portfolio Example 1"/>
             <h2>Janson Equipment</h2>
-            <button id="myBtn">VIEW MORE</button>
-            <div id="myModal1" class="modal">
+            <button id="btnImg1" class="btn-view-more">VIEW MORE</button>
+            <div id="modal1" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <span id="btnCloseModal1" class="close">&times;</span>
                     <div class="modalleft">
                     	<img src="./siteart/work/janson.jpg" alt="Wendy Huynh Portfolio"/>
                         <h6>This site is owned by and created through Sandhills Publishing</h6>
@@ -108,43 +108,15 @@
                     <div style="clear:both;"></div>
                 </div>
             </div>
-            <script>
-			// Get the modal
-			var modal = document.getElementById('myModal1');
-			
-			// Get the button that opens the modal
-			var btn = document.getElementById("myBtn");
-			
-			// Get the <span> element that closes the modal
-			var span = document.getElementsByClassName("close")[0];
-			
-			// When the user clicks the button, open the modal 
-			btn.onclick = function() {
-				modal.style.display = "block";
-			}
-			
-			// When the user clicks on <span> (x), close the modal
-			span.onclick = function() {
-				modal.style.display = "none";
-			}
-			
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-				if (event.target == modal) {
-					modal.style.display = "none";
-				}
-			}
-			</script>  
-
         </div>
         <div class="twogrid">
-        	<img src="./siteart/work/2.png" alt="Portfolio Example 2"/>
+        	<img id="img2" class="img-view-more" src="./siteart/work/2.png" alt="Portfolio Example 2"/>
             <h2>Used Krone North America</h2>
-			<button id="myBtn">VIEW MORE</button>
-            <div id="myModal2" class="modal">
+			<button id="btnImg2" class="btn-view-more">VIEW MORE</button>
+            <div id="modal2" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <span id="btnCloseModal2" class="close">&times;</span>
                     <div class="modalleft">
                     	<img src="./siteart/work/krone.jpg" alt="Wendy Huynh Portfolio"/>
                         <h6>This site is owned by and created through Sandhills Publishing</h6>
@@ -157,33 +129,6 @@
                     <div style="clear:both;"></div>
                 </div>
             </div>
-            <script>
-			// Get the modal
-			var modal = document.getElementById('myModal2');
-			
-			// Get the button that opens the modal
-			var btn = document.getElementById("myBtn");
-			
-			// Get the <span> element that closes the modal
-			var span = document.getElementsByClassName("close")[0];
-			
-			// When the user clicks the button, open the modal 
-			btn.onclick = function() {
-				modal.style.display = "block";
-			}
-			
-			// When the user clicks on <span> (x), close the modal
-			span.onclick = function() {
-				modal.style.display = "none";
-			}
-			
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-				if (event.target == modal) {
-					modal.style.display = "none";
-				}
-			}
-			</script>  
         </div>
         <div class="twogrid">
         	<img src="./siteart/work/3.png" alt="Portfolio Example 3"/>
@@ -216,7 +161,7 @@
             <div class="small-12 medium-9 columns">
             <h2>A Little About Me</h2>
             <p>Hello all! My name is Wendy Huynh and I'm an interactive designer. I’m a graduate of the University of Nebraska Lincoln with a bachelors in both art and business. I'm a logical thinker with a creative side who believes less is more in both projects and life. I’m always looking for a new challenge, so let's have an adventure! <a href="mailto:whuynh93@gmailcom">Send me a message!</a></p>
-            <a href="./siteart/Huynh_Resume.pdf" target="_blank"><div class="colorblockbtn">Download my resume</div></a>
+            <a href="./siteart/Huynh_Resume.pdf" target="_blank"><div class="colorblockbtn">View my resume</div></a>
     	</div>
         </div>
         <div style="clear:both;"></div>
@@ -264,6 +209,94 @@
 <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="./js/menu.js"></script>
 <script type="text/javascript" src="./js/jquery.cycle2.min.js"></script>  
+<script>
+	var modal1 = $("#modal1");
+	var modal2 = $("#modal2");
+	var modal3 = $("#modal3");
+	var modal4 = $("#modal4");
+	var modal5 = $("#modal5");
+	var modal6 = $("#modal6");
+	
+	// When the user clicks the button, open the modal 
+	$("#btnImg1").click(function() {
+		modal1.css("display", "block");
+	});
+	$("#btnImg2").click(function() {
+		modal2.css("display", "block");
+	});
+	$("#btnImg3").click(function() {
+		modal3.css("display", "block");
+	});
+	$("#btnImg4").click(function() {
+		modal4.css("display", "block");
+	});
+	$("#btnImg5").click(function() {
+		modal5.css("display", "block");
+	});
+	$("#btnImg6").click(function() {
+		modal6.css("display", "block");
+	});
+	$("#img1").click(function(){
+		modal1.css("display", "block");
+	});
+	$("#img2").click(function(){
+		modal2.css("display", "block");
+	});
+	$("#img3").click(function(){
+		modal3.css("display", "block");
+	});
+	$("#img4").click(function(){
+		modal4.css("display", "block");
+	});
+	$("#img5").click(function(){
+		modal5.css("display", "block");
+	});
+	$("#img6").click(function(){
+		modal6.css("display", "block");
+	});
+	
+	// When the user clicks on <span> (x), close the modal
+	$("#btnCloseModal1").click(function() {
+		modal1.css("display", "none");
+	});
+	$("#btnCloseModal2").click(function() {
+		modal2.css("display", "none");
+	});
+	$("#btnCloseModal3").click(function() {
+		modal3.css("display", "none");
+	});
+	$("#btnCloseModal4").click(function() {
+		modal4.css("display", "none");
+	});
+	$("#btnCloseModal5").click(function() {
+		modal5.css("display", "none");
+	});
+	$("#btnCloseModal6").click(function() {
+		modal6.css("display", "none");
+	});
+	
+	// When the user clicks anywhere outside of the modal, close it
+	$(window).click(function(e) {
+		if (e.target == modal1) {
+			modal1.css("display", "none");
+		}
+		else if (e.target == modal2){
+			modal2.css("display", "none");
+		}
+		else if (e.target == modal3){
+			modal3.css("display", "none");
+		}
+		else if (e.target == modal4){
+			modal4.css("display", "none");
+		}
+		else if (e.target == modal5){
+			modal5.css("display", "none");
+		}
+		else if (e.target == modal6){
+			modal6.css("display", "none");
+		}
+	});
+</script> 
 
 </body>
 </html>
