@@ -17,17 +17,6 @@
 
 <meta name="author" content="Wendy Huynh"> 
     
-<link rel="apple-touch-icon" sizes="180x180" href="./siteart/icon/apple-touch-icon-180x180.png"> 
-<link rel="apple-touch-icon" sizes="152x152" href="./siteart/icon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./siteart/icon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./siteart/icon/apple-touch-icon-76x76.png">
-<link type="text/css" rel="stylesheet" href="./css/addtohomescreen.css" />
- <script type="text/javascript" src="./js/addtohomescreen.js"></script>
- <script>
-    addToHomescreen();
-</script>
-<meta name="apple-mobile-web-app-title" content="Wendy Huynh Design"> 
-
 <!--[if lt IE 9]>
     <script type="text/javascript" src="/js/html5shiv.js"></script>
 <![endif]-->
@@ -133,22 +122,84 @@
         <div class="twogrid">
         	<img src="./siteart/work/3.png" alt="Portfolio Example 3"/>
             <h2>Bobcat Plus</h2>
-            <a href=""><div class="btn">VIEW MORE</div></a>
+            <button id="btnImg3" class="btn-view-more">VIEW MORE</button>
+            <div id="modal3" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="btnCloseModal3" class="close">&times;</span>
+                    <div class="modalleft">
+                    	<img src="./siteart/work/bobcat.jpg" alt="Wendy Huynh Portfolio"/>
+                        <h6>This site is owned by and created through Sandhills Publishing</h6>
+                    </div>
+                    <div class="modalright">
+                    <h2>Bobcat Plus</h2>
+                    <p>Bobcat Plus was an easier site in a design sense since they are part of a widely known brand that they wanted represented in their website. It was very important to this customer for their inventory to be easily accessed and categorized efficiently for users. The functionality was similar to other Bobcat sites-very focused on equipment, giving direction to the creation of Bobcat Plus. </p>
+                    <a href="http://www.bobcatplus.com/default.htm" target="_blank"><div class="btn">VIEW LIVE SITE</div></a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
         </div>
         <div class="twogrid">
         	<img src="./siteart/work/4.png" alt="Portfolio Example 4"/>
             <h2>Truck King International</h2>
-            <a href=""><div class="btn">VIEW MORE</div></a>
+            <button id="btnImg4" class="btn-view-more">VIEW MORE</button>
+            <div id="modal4" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="btnCloseModal4" class="close">&times;</span>
+                    <div class="modalleft">
+                    	<img src="./siteart/work/truckking.jpg" alt="Wendy Huynh Portfolio"/>
+                        <h6>This site is owned by and created through Sandhills Publishing</h6>
+                    </div>
+                    <div class="modalright">
+                    <h2>Truck King International</h2>
+                    <p>Truck King International was a sister site to Salem Trucks. With this task, I had to make two very similar, but standalone websites. I worked with JavaScript to create a flip animation to the call out buttons underneath the slider. When hovering over sales for example, it flips to a more in depth description of what will be found in that tab along with a link to navigate to the page. This site has not been rolled out live. </p>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
         </div>
         <div class="twogrid">
         	<img src="./siteart/work/5.png" alt="Portfolio Example 5"/>
             <h2>Jet Ten</h2>
-            <a href=""><div class="btn">VIEW MORE</div></a>
+            <button id="btnImg5" class="btn-view-more">VIEW MORE</button>
+            <div id="modal5" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="btnCloseModal5" class="close">&times;</span>
+                    <div class="modalleft">
+                    	<img src="./siteart/work/jetten.jpg" alt="Wendy Huynh Portfolio"/>
+                        <h6>This site is owned by and created through Sandhills Publishing</h6>
+                    </div>
+                    <div class="modalright">
+                    <h2>Jet Ten</h2>
+                    <p>Jet Ten wanted a very informative site. Nothing flashy-straight to the point. Easy to use contact information at the top and a form to easily reach them.</p>
+                    <a href="http://www.jet-ten.com/" target="_blank"><div class="btn">VIEW LIVE SITE</div></a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
         </div>
         <div class="twogrid">
         	<img src="./siteart/work/6.png" alt="Portfolio Example 6"/>
             <h2>Wickliff Auctioneers</h2>
-            <a href=""><div class="btn">VIEW MORE</div></a>
+            <button id="btnImg6" class="btn-view-more">VIEW MORE</button>
+            <div id="modal6" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="btnCloseModal6" class="close">&times;</span>
+                    <div class="modalleft">
+                    	<img src="./siteart/work/wickliff.jpg" alt="Wendy Huynh Portfolio"/>
+                        <h6>This site is owned by and created through Sandhills Publishing</h6>
+                    </div>
+                    <div class="modalright">
+                    <h2>Wickliff Auctioneers</h2>
+                    <p>Wickliff Auctioneers was another CMS site I created. Their main purpose was to advertise upcoming auctions and take customers right to the listing. Surprisingly, that was not the hardest aspect of the site I was given. Their blog section was very in depth and dated back to 2012. After creating a template using PHP files with Silverstripe, what resulted were simple to follow fields for the customer to plug in information. This site has not been rolled out live.</p>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
         </div>
     </div>
 	
@@ -188,8 +239,6 @@
             	<div class="container">
                 <form action="mailto:whuynh93@gmail.com" method="post" enctype="text/plain">
                 <form method="post" action="index.html" onSubmit="return validation(this)"> 
-            	<input type="hidden" name="form_subject" value="Contact Form"> 
-            	<input type="hidden" name="form_thankyou" value="index.html">
 
                     <input type="text" id="name" name="name" placeholder="Name">
                     <input type="email" id="email" name="email" placeholder="Email">
