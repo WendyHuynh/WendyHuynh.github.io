@@ -92,10 +92,10 @@
         	<img src="./siteart/work/1.png" alt="Portfolio Example 1"/>
             <h2>Janson Equipment</h2>
             <button id="myBtn">VIEW MORE</button>
-            <div class="myModal modal">
+            <div id="myModal1" class="modal">
                 <!-- Modal content -->
-                <div class="modal modal_multi">
-                    <span class="close close_multi">×</span>
+                <div class="modal-content">
+                    <span class="close">&times;</span>
                     <div class="modalleft">
                     	<img src="./siteart/work/janson.jpg" alt="Wendy Huynh Portfolio"/>
                         <h6>This site is owned by and created through Sandhills Publishing</h6>
@@ -108,17 +108,43 @@
                     <div style="clear:both;"></div>
                 </div>
             </div>
-            
+            <script>
+			// Get the modal
+			var modal = document.getElementById('myModal1');
+			
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+			
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+				modal.style.display = "block";
+			}
+			
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+			</script>  
 
         </div>
         <div class="twogrid">
         	<img src="./siteart/work/2.png" alt="Portfolio Example 2"/>
             <h2>Used Krone North America</h2>
 			<button id="myBtn">VIEW MORE</button>
-            	<div  class="modal modal_multi">
+            <div id="myModal2" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close close_multi">×</span>
+                    <span class="close">&times;</span>
                     <div class="modalleft">
                     	<img src="./siteart/work/krone.jpg" alt="Wendy Huynh Portfolio"/>
                         <h6>This site is owned by and created through Sandhills Publishing</h6>
@@ -131,7 +157,33 @@
                     <div style="clear:both;"></div>
                 </div>
             </div>
-             
+            <script>
+			// Get the modal
+			var modal = document.getElementById('myModal2');
+			
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+			
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+				modal.style.display = "block";
+			}
+			
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+			</script>  
         </div>
         <div class="twogrid">
         	<img src="./siteart/work/3.png" alt="Portfolio Example 3"/>
@@ -159,10 +211,10 @@
     <div id="colorblock">
     	<div id="pagewrap">
     	<div id="selfportrait" class="small-12 medium-3 columns">
-            	<img src="./siteart/portrait.jpg" alt="Wendy Huynh"/>
+            	<a name="contact"><img src="./siteart/portrait.jpg" alt="Wendy Huynh"/></a>
             </div>
             <div class="small-12 medium-9 columns">
-            <a name="contact"><h2>A Little About Me</h2></a>
+            <h2>A Little About Me</h2>
             <p>Hello all! My name is Wendy Huynh and I'm an interactive designer. I’m a graduate of the University of Nebraska Lincoln with a bachelors in both art and business. I'm a logical thinker with a creative side who believes less is more in both projects and life. I’m always looking for a new challenge, so let's have an adventure! <a href="mailto:whuynh93@gmailcom">Send me a message!</a></p>
             <a href="./siteart/Huynh_Resume.pdf" target="_blank"><div class="colorblockbtn">Download my resume</div></a>
     	</div>
@@ -175,8 +227,8 @@
         	<div class="small-6 medium-3 columns">
             	<h4>Quick Links</h4>
                 <a href="/index.html">Home</a><br>
-                <a href="/work.htm">Work</a><br>
-                <a href="/contact.htm">Contact</a><br><br>
+                <a href="#work">Work</a><br>
+                <a href="/#contact">Contact</a><br><br>
             </div>
             <div class="small-6 medium-3 columns">
             	<h4>Contact Me</h4>
@@ -188,10 +240,10 @@
             </div>
             <div class="small-12 medium-6 columns">
             	<div class="container">
+                <form action="mailto:whuynh93@gmail.com" method="post" enctype="text/plain">
                 <form method="post" action="index.html" onSubmit="return validation(this)"> 
             	<input type="hidden" name="form_subject" value="Contact Form"> 
             	<input type="hidden" name="form_thankyou" value="index.html">
-            	<input type="hidden" name="form_to" value="whuynh93@gmail.com"> 
 
                     <input type="text" id="name" name="name" placeholder="Name">
                     <input type="email" id="email" name="email" placeholder="Email">
@@ -213,60 +265,5 @@
 <script type="text/javascript" src="./js/menu.js"></script>
 <script type="text/javascript" src="./js/jquery.cycle2.min.js"></script>  
 
-<script>
-// Get the modal
-
-var modalparent = document.getElementsByClassName("modal_multi");
-
-// Get the button that opens the modal
-
-var modal_btn_multi = document.getElementsByClassName("myBtn_multi");
-
-// Get the <span> element that closes the modal
-var span_close_multi = document.getElementsByClassName("close_multi");
-
-// When the user clicks the button, open the modal
-function setDataIndex() {
-
-	for (i = 0; i < modal_btn_multi.length; i++)
-	{
-		modal_btn_multi[i].setAttribute('data-index', i);
-		modalparent[i].setAttribute('data-index', i);
-		span_close_multi[i].setAttribute('data-index', i);
-	}
-}
-
-
-
-for (i = 0; i < modal_btn_multi.length; i++)
-{
-	modal_btn_multi[i].onclick = function() {
-		var ElementIndex = this.getAttribute('data-index');
-		modalparent[ElementIndex].style.display = "block";
-	};
-
-	// When the user clicks on <span> (x), close the modal
-	span_close_multi[i].onclick = function() {
-		var ElementIndex = this.getAttribute('data-index');
-		modalparent[ElementIndex].style.display = "none";
-	};
-
-}
-
-window.onload = function() {
-
-	setDataIndex();
-};
-
-window.onclick = function(event) {
-	if (event.target === modalparent[event.target.getAttribute('data-index')]) {
-		modalparent[event.target.getAttribute('data-index')].style.display = "none";
-	}
-
-	// OLD CODE
-	if (event.target === modal) {
-		modal.style.display = "none";
-	}
-};
 </body>
 </html>
