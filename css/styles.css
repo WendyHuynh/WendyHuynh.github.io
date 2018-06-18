@@ -52,6 +52,7 @@ header {background:#000; padding:10px 0;}
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+.modal img {width:75%;}
 
 /* Modal Content */
 .modal-content {background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;}
