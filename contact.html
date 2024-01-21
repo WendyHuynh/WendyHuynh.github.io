@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="./css/menu.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/font-awesome.min.css">	
 <link rel="stylesheet" href="./css/font-awesome.min.css">
 <link rel="shortcut icon" href="./siteart/icon/favicon.ico" /> 
 </head>
@@ -78,27 +78,32 @@
         
     <div id="site-width">
     	<h1>Contact</h1>
-      <div id="selfportrait" class="small-12 medium-3 columns">
-        <a name="contact"><img src="./siteart/portrait.jpg" alt="Wendy Huynh"/></a>
-      </div>
-      <div class="small-12 medium-9 columns">
-        <h2>Hi, I'm Wendy</h2>
-        <p>I am a multi-disciplinary designer located in Omaha, NE that has worn many different hats in my career. With that, I now have a diverse skillset of visual, UX/UI, interaction, and web design. I believe the best design starts with empathy, so let’s get to know each other and create something meaningful. <a href="mailto:whuynh93@gmailcom">Send me a message!</a></p>
-        <a href="./siteart/WendyHuynh_Resume.pdf" target="_blank"><div class="colorblockbtn">View my resume</div></a>
-
-         <form method="POST" action="https://formspree.io/WHuynh93@gmail.com">
-				  <input type="text" name="name" placeholder="Name"> 
-				  <input type="email" name="email" placeholder=" Email">
-				  <textarea name="message" placeholder="Message" style="height:50px"></textarea>
-				  <input type="submit" value="Submit">
-				</form>
-        
+	<div id="selfportrait" class="large-4 columns">
+		<a name="contact"><img src="./siteart/portrait.jpg" alt="Wendy Huynh"/></a>
+	</div>
+	<div class="large-8 columns">
+		<h2>Hi, I'm Wendy</h2>
+		<p>I am a multi-disciplinary designer located in Omaha, NE that has worn many different hats in my career. With that, I now have a diverse skillset of visual, UX/UI, interaction, and web design. I believe the best design starts with empathy, so let’s get to know each other and create something meaningful. <a href="mailto:whuynh93@gmailcom">Send me a message!</a></p>
+		<a href="./siteart/WendyHuynh_Resume.pdf" target="_blank"><div class="colorblockbtn">View my resume</div></a>
+		
+		<form method="POST" action="https://formspree.io/WHuynh93@gmail.com">
+			<input type="text" name="name" placeholder="Name"> 
+			<input type="email" name="email" placeholder=" Email">
+			<textarea name="message" placeholder="Message" style="height:50px"></textarea>
+			<input type="submit" value="Submit">
+		</form>
     	</div>
-      <div style="clear:both;"></div>
     </div>
     
     <footer>
     	<div id="site-width">
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+		<div style="clear:both;"></div>
+		<div class="contacticons">
+			<i class="fa-solid fa-chevron-up"></i>
+			<a href="mailto:whuynh93@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+			<a href="tel:402-417-6757"><img src="/siteart/scroll.svg"/></a>
+		</div>
         	<div class="small-6 medium-3 columns">
             	<h4>Quick Links</h4>
                 <a href="/index.html">Home</a><br>
@@ -107,10 +112,10 @@
             </div>
             <div class="small-6 medium-3 columns">
             	<h4>Contact Me</h4>
-                <a href="tel:402-417-6757">402.417.6757</a><br>
-                <a href="mailto:whuynh93@gmail.com">whuynh93@gmail.com</a><br>
+                402.417.6757</a><br>
+                whuynh93@gmail.com</a><br>
                 <a href="https://www.linkedin.com/in/wendy-huynh-bb96b69a/" target="_blank"><i class="fab fa-linkedin"></i></a> &nbsp;
-                <a href="mailto:whuynh93@gmail.com"><i class="fas fa-envelope"></i></a> &nbsp; 
+                <a href="mailto:whuynh93@gmail.com"><i class="fa-regular fa-envelope"></i></a> 
                 <a href="tel:402-417-6757"><i class="fas fa-phone"></i></a><br><br>
             </div>
             <div class="small-12 medium-6 columns">
@@ -120,9 +125,31 @@
             </div>
             <div style="clear:both;"></div>
             <div class="line">&nbsp;</div>
-        	&copy; Copyright Wendy Huynh Design<br><br>
+        	<p> Website design and content &copy; <script>document.write( new Date().getUTCFullYear() );</script> Wendy Huynh</p>
         </div>
         <div style="clear:both;"></div>
     </footer>
 </body>
 </html>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
