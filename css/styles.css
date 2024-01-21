@@ -18,7 +18,7 @@ p {font-size:16px; line-height:22px;}
 a {text-decoration:none;}
 
 /* BASIC STYLES */
-body {overflow-x:hidden; font-family: 'Lato', sans-serif; font-weight:300;}
+body {overflow-x:hidden; font-family: 'Lato', sans-serif; font-weight:normal;}
 #site-width {width:100%; max-width:960px; margin:0 auto;}
 
 /* HEADER */
@@ -41,7 +41,7 @@ input[type=text], select, textarea {
 }
 
 /* FOOTER */
-footer {padding:20px 0 0; line-height:22px;}
+footer {padding:20px 0 0; text-align:center;}
 footer a:hover {color:#424242;}
 
 /*submit button styles */
