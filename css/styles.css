@@ -21,7 +21,7 @@ body {overflow-x:hidden; font-family: 'Lato', sans-serif; font-weight:normal; co
 
 /* HEADER */
 header {padding:10px 0;}
-.navwrap {text-align:right; margin-top:10px;}
+.navwrap {text-align:right;}
 
 /* The Close Button */
 .close {color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;}
